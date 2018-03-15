@@ -4,8 +4,8 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
 
-  config.ssh.username = "ubuntu"
-  config.ssh.password = "fbcd1ed4fe8c83b157dc6e0f"
+  # config.ssh.username = "ubuntu"
+  # config.ssh.password = "fbcd1ed4fe8c83b157dc6e0f"
 
   config.vm.network "forwarded_port", guest: 80, host: 8080
 
