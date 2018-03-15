@@ -5,6 +5,7 @@ The backend consists of the following components:
   - PHP 7.0
   - MySQL 5.7
   - Zend Framework 2.4
+  - Doctrine 2.5
   - Vagrant
   - GIT
   - Composer
