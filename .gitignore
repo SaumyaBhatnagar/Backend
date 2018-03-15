@@ -1,4 +1,5 @@
 vendor/
+.vagrant/
 # Compiled source #
 ###################
 *.com
